@@ -7,7 +7,7 @@ The power of Subliminal Oncology lies in its dual-action capability: it uses AI 
 Biophysically, a healthy system is "chaotic but bounded." It possesses the entropy required to adapt to internal and external stressors. Our review found that malignancy acts as a "complexity thief." As recurrence takes hold, the AI detects a loss of this complexity. The system becomes "rigid"—a state where the heart and brain no longer "communicate" with the fluidity required for immune surveillance.
 
 ## Overview
-This project aims to close the "Anatomical Gap" in cancer surveillance. Using multimodal bioelectric sensing (EIS + HRV), we detect oncogenic drift up to 120 days before traditional imaging.
+This project aims to close the "Anatomical Gap" in cancer surveillance. Using multimodal bioelectric sensing (EIS + HRV), we detect oncogenic drift up to 118 days before traditional imaging.
 
 ## The Science
 We track the transition from **Bounded Chaos to Pathological Rigidity** (Η μετάβαση από το χάος στην ακαμψία).
