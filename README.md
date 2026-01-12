@@ -17,8 +17,7 @@ We track the transition from **Bounded Chaos to Pathological Rigidity** (Η με
 
 ## Pre-print Reference
 
-https://doi.org/10.20944/preprints202510.1364.v2
-
+https://www.preprints.org/manuscript/202510.1364
 ## Roadmap
 - [ ] Upload Chaos-Engine Python Core
 - [ ] Validate against PhysioNet ECG Archives
