@@ -1,3 +1,5 @@
+![logo](https://github.com/user-attachments/assets/41a58009-d09a-4a64-9700-3b7e7662b98f)
+
 # subliminal-oncology
 Open-source framework for early cancer recurrence detection using Vagal-Immune bioelectric signatures (EIS + HRV)
 # Subliminal Oncology: The Chaos-to-Rigidity Engine
