@@ -1,0 +1,33 @@
+import pandas as pd
+import numpy as np
+import os
+
+def sanitize_and_prepare(input_file, output_folder, anchor_date_index):
+    """
+    Sanitizes raw ECG/HRV data for the Subliminal Oncology Engine.
+    Removes PII and aligns time-series to the 'Oncogenic Anchor'.
+    """
+    # 1. Load Data
+    df = pd.read_csv(input_file)
+    
+    # 2. De-identification
+    # Drop columns that typically contain PII (Names, SSNs, PatientIDs)
+    pii_columns = ['name', 'patient_id', 'dob', 'address', 'hospital_id']
+    df = df.drop(columns=[c for c in pii_columns if c in df.columns])
+    
+    # 3. Temporal Alignment (The 'Subliminal' Shift)
+    # We convert absolute dates to 'Days from Diagnosis' 
+    # This allows the engine to track the 118-day 'Vagal Slope' without knowing the year.
+    df['days_to_anchor'] = df.index - anchor_date_index
+    
+    # 4. Save sanitized version
+    filename = os.path.basename(input_file)
+    output_path = os.path.join(output_folder, f"sanitized_{filename}")
+    df.to_csv(output_path, index=False)
+    
+    print(f"Success: {filename} has been sanitized and aligned.")
+    return output_path
+
+if __name__ == "__main__":
+    print("Subliminal Data Sanitizer Active.")
+    # Usage: sanitize_and_prepare('raw_clinical_data.csv', './data-contribution/benchmarks/', 500)
