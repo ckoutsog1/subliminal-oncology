@@ -12,7 +12,8 @@ We track the transition from **Bounded Chaos to Pathological Rigidity** (Η με
 - **Markers:** SDNN < 50 ms, RMSSD < 20 ms, EIS Phase Shift
 
 ## Pre-print Reference
-[Link to your already published pre-print here]
+
+https://doi.org/10.20944/preprints202510.1364.v2
 
 ## Roadmap
 - [ ] Upload Chaos-Engine Python Core
