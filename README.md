@@ -3,6 +3,8 @@
 # subliminal-oncology
 Open-source framework for early cancer recurrence detection using Vagal-Immune bioelectric signatures (EIS + HRV)
 # Subliminal Oncology: The Chaos-to-Rigidity Engine
+The power of Subliminal Oncology lies in its dual-action capability: it uses AI to extract signals that are currently under the threshold of standard electrophysiological sensors, thereby identifying oncogenic processes while they are still under the radar of conventional anatomical imaging. 
+Biophysically, a healthy system is "chaotic but bounded." It possesses the entropy required to adapt to internal and external stressors. Our review found that malignancy acts as a "complexity thief." As recurrence takes hold, the AI detects a loss of this complexity. The system becomes "rigid"—a state where the heart and brain no longer "communicate" with the fluidity required for immune surveillance.
 
 ## Overview
 This project aims to close the "Anatomical Gap" in cancer surveillance. Using multimodal bioelectric sensing (EIS + HRV), we detect oncogenic drift up to 120 days before traditional imaging.
